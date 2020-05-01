@@ -1,0 +1,127 @@
+body{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    ;
+
+}
+.DOB{
+    margin: 10px auto 10px 65px;
+    width: 21%;
+    padding: 4px;
+}
+.email{
+    margin: 10px auto 10px 27px;
+    padding: 4px;
+}
+.city{
+    margin: 10px auto 10px 52px;
+    padding: 4px;
+
+}
+.pinc{
+    margin: 10px auto 10px 20px;
+    padding: 4px;
+}
+.state{
+    margin: 10px auto 10px 40px;
+    padding: 4px;
+}
+.country{
+    margin: 10px auto 10px 13px;
+    padding: 4px;
+}
+
+.fimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+    height: 150px;
+  }
+.fheading{
+    color: rgb(108, 27, 214);
+    text-align: center;
+}  
+#wrapper {
+    
+    background-color: rebeccapurple;
+}
+#content {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rebeccapurple;
+    position: relative;
+}
+.form{
+    margin: 10px;
+    padding: 4px;
+    
+    
+}
+.label{
+    color: white;
+    margin-left: 15px;
+}
+.fp{
+    display: inline-block;
+    color: white;
+}
+.fp{
+    margin: 15px;
+}
+.t1{
+    margin: 10px auto 10px 30px;
+}
+.c1{
+    color: white;
+    margin: auto;
+    padding-right: 40px;
+}
+.c2{
+    color: white;
+    
+}
+.heading{
+    color: white;
+    margin:10px;
+    padding: 10px
+}
+
+.textbox{
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.cond{
+    display: inline-block;
+    color: white;
+    margin-left: 32%;
+    padding: auto;
+    font-size: 13px;
+}
+.cond1{
+    display: inline;
+    color: white;
+    margin-left: 9%;
+    padding: auto;
+    font-size: 13px;
+}
+.reset{
+    font-size: 1.5em;
+    padding: 4px;
+    margin-top: 8px;
+}
+.submit{
+    font-size: 1.5em;
+    padding: 4px;
+    margin-top: 8px;
+}
+.thank{
+    color: lawngreen;
+    font-size: 1.rem;
+}
+.back{
+    color: lawngreen;
+    font-size: 1.5rem;
+}

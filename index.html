@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="fdiv">
+        <img class="fimg" src="saylani.jpg";>
+        <h1 class="fheading"><u>Student Registration Form</u></h1>
+    </div>
+<div id="wrapper"></div>
+    <div id="content">
+    <form action="form_submission.html" method="GET" id="dataform">
+       <div><label class="label">FIRSTNAME:</label><input type="text" ; class="form"; name="fname"; maxlength="30 words" required><p class="fp">(max 30 characters a-z and A-Z)</p></div>
+       <div><label class="label">LASTNAME:</label><input type="text" ; class="form"; name="lname"; maxlength="30 words" required><p class="fp">(max 30 characters a-z and A-Z)</p></div>
+    <div><label class="label">DOB:<input type="date" class='DOB'; name="dob" required> </label></div>
+       <div><label class="label">EMAIL ID:</label><input type="email" ; class="email"; name="Email"; required></div>
+       <div><label class="label">MOBILE NO:</label><input type="number" ; class="form"; name="Mobno"; required><p class="fp">(10 digit number)</p></div>
+    <div><p class="label" style="color: white;" >GENDER:</p> 
+        <label class="label">MALE:</label><input type="radio"; class="form"; name="gender">
+        <label class="label">FEMALE:</label><input type="radio"; class="form"; name="gender">
+    </div>
+    <div><p class="label"; style="color: white;" >ADDRESS:</p><textarea class="form";name="Address" cols="50" rows="7" required></textarea></div>
+    <div><label class="label">CITY:</label><input type="text" ; class="city"; name="cityname"; maxlength="30 words" required><p class="fp";>(max 30 characters a-z and A-Z)</p></div>
+    <div><label class="label">PINCODE:</label><input type="number" ; class="pinc"; name="pincode"; maxlength="6 digit" required><p class="fp">(6 digit number)</p></div>
+    <div><label class="label">STATE:</label><input type="text" ; class="state"; name="state"; maxlength="30 words" required><p class="fp">(max 30 characters a-z and A-Z)</p></div>
+    <div><label class="label">COUNTRY:</label><input type="text" ; class="country"; name="country"; required><p class="fp"></div>
+<div>
+    <p class="fp">HOBBIES:</p><br>
+    <p class="fp">DRAWING:</p><input type="checkbox";>
+    <p class="fp">DANCING:</p><input type="checkbox";>
+    <p class="fp">SKECHTING:</p><input type="checkbox">
+     <p class="fp">SPORT:</p><input type="checkbox";><br>
+    <p class="fp">OTHERS:</p><input type="text";>
+</div>
+<div>
+    <table class="t1" > 
+        <h3 class="fp">Qualifications</h3>
+        <tr>
+            
+            <td class="c1">SI No Examintation</td> 
+            <td class="heading">Board</td>
+            <td class="heading">Percentage</td> 
+            <td class="heading">Year Of Passing</td>
+        </tr>
+        <tr>
+            <td class="textbox">1. MATRIC</td>
+            <td class="textbox"><input type="text"; class="tex1" maxlength="10words" required></td>  
+            <td class="textbox"><input type="number"; class="tex1" step="0.01" required></td> 
+            <td class="textbox"><input type="number"; class="tex1" required></td>
+
+        </tr>
+        <tr>
+            <td class="textbox">2. INTERMEDIATE</td>
+            <td class="textbox"><input type="text"; class="tex1" maxlength="10words" required></td>
+            <td class="textbox"><input type="number"; class="tex1"  step=".01" required></td>
+            <td class="textbox"><input type="number"; class="tex1" required></td>
+        </tr>
+        <tr>
+            <td class="textbox">3. GRADUATION</td>
+            <td class="textbox"><input type="text"; class="tex1" maxlength="10words"></td>
+            <td class="textbox"><input type="number"; class="tex1"  step=".01" ></td>
+            <td class="textbox"><input type="number"; class="tex1"></td>
+        </tr>
+        <tr>
+            <td class="textbox">4. MASTERS</td>
+            <td class="textbox"><input type="text"; class="tex1" maxlength="10words"></td>
+            <td class="textbox"><input type="number"; class="tex1" step="0.01"></td>
+            <td class="textbox"><input type="number"; class="tex1"></td>
+            
+
+        </tr>
+            
+    </table>
+    <p class="cond">(10 character max)</p> <p class="cond1">(upto 2 decimal)</p>
+</div>
+
+    </form>
+    <div>
+        <p class="fp">Courses Applied For:</p><br>
+        <p class="fp">BS.c:</p><input type="radio"; name="courses">
+        <p class="fp">B.Com:</p><input type="radio"; name="courses">
+        <p class="fp">BCA:</p><input type="radio"; name="courses">
+         <p class="fp">B.A:</p><input type="radio"; name="courses"><br>
+    </div>
+    <div align='center'>
+        <button type="reset" form="dataform" value="reset" class="reset"> Reset</button>
+        <button type="SUBMIT" form="dataform" value="SUBMIT" class="submit">Submit</button>
+    </div>
+</body>
+</html>
